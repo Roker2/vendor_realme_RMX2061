@@ -100,12 +100,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX2061/proprietary/lib64/libwfduibcsrc.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libwfduibcsrc.so \
     vendor/realme/RMX2061/proprietary/lib64/libwfduibcsrcinterface.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libwfduibcsrcinterface.so \
     vendor/realme/RMX2061/proprietary/lib64/libxt_native.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libxt_native.so \
-    vendor/realme/RMX2061/proprietary/oppo_product/vendor/etc/oppo_app_scale_list.xml:$(TARGET_COPY_OUT_SYSTEM)/oppo_product/vendor/etc/oppo_app_scale_list.xml \
-    vendor/realme/RMX2061/proprietary/oppo_product/vendor/etc/oppo_display_perf_list.xml:$(TARGET_COPY_OUT_SYSTEM)/oppo_product/vendor/etc/oppo_display_perf_list.xml \
-    vendor/realme/RMX2061/proprietary/oppo_product/vendor/etc/oppo_rc_bottom.png:$(TARGET_COPY_OUT_SYSTEM)/oppo_product/vendor/etc/oppo_rc_bottom.png \
-    vendor/realme/RMX2061/proprietary/oppo_product/vendor/etc/oppo_rc_left.png:$(TARGET_COPY_OUT_SYSTEM)/oppo_product/vendor/etc/oppo_rc_left.png \
-    vendor/realme/RMX2061/proprietary/oppo_product/vendor/etc/oppo_rc_right.png:$(TARGET_COPY_OUT_SYSTEM)/oppo_product/vendor/etc/oppo_rc_right.png \
-    vendor/realme/RMX2061/proprietary/oppo_product/vendor/etc/oppo_rc_top.png:$(TARGET_COPY_OUT_SYSTEM)/oppo_product/vendor/etc/oppo_rc_top.png \
     vendor/realme/RMX2061/proprietary/product/bin/dpmd:$(TARGET_COPY_OUT_PRODUCT)/bin/dpmd \
     vendor/realme/RMX2061/proprietary/product/etc/dpm/dpm.conf:$(TARGET_COPY_OUT_PRODUCT)/etc/dpm/dpm.conf \
     vendor/realme/RMX2061/proprietary/product/etc/init/dpmd.rc:$(TARGET_COPY_OUT_PRODUCT)/etc/init/dpmd.rc \
@@ -2510,17 +2504,13 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX2061/proprietary/vendor/odm/etc/vintf/manifest_secure_element_uicc.xml:$(TARGET_COPY_OUT_ODM)/odm/etc/vintf/manifest_secure_element_uicc.xml \
     vendor/realme/RMX2061/proprietary/vendor/odm/etc/vintf/manifest_secure_element_uicc_single_sim.xml:$(TARGET_COPY_OUT_ODM)/odm/etc/vintf/manifest_secure_element_uicc_single_sim.xml \
     vendor/realme/RMX2061/proprietary/vendor/oppo/ck.fs:$(TARGET_COPY_OUT_VENDOR)/oppo/ck.fs \
-    vendor/realme/RMX2061/proprietary/vendor/oppo/recovery_rootcheck:$(TARGET_COPY_OUT_VENDOR)/oppo/recovery_rootcheck \
-    vendor/realme/RMX2061/proprietary/vendor/overlay/OppoGmailOverlay.apk:$(TARGET_COPY_OUT_VENDOR)/overlay/OppoGmailOverlay.apk \
-    vendor/realme/RMX2061/proprietary/vendor/overlay/OppoPhoneActivationResCommon.apk:$(TARGET_COPY_OUT_VENDOR)/overlay/OppoPhoneActivationResCommon.apk \
     vendor/realme/RMX2061/proprietary/vendor/radio/qcril_database/qcril.db:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/qcril.db \
     vendor/realme/RMX2061/proprietary/vendor/radio/qcril_database/upgrade/0_initial.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/0_initial.sql \
     vendor/realme/RMX2061/proprietary/vendor/radio/qcril_database/upgrade/1_version_intro.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/1_version_intro.sql \
     vendor/realme/RMX2061/proprietary/vendor/radio/qcril_database/upgrade/2_version_add_wps_config.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/2_version_add_wps_config.sql \
     vendor/realme/RMX2061/proprietary/vendor/radio/qcril_database/upgrade/3_version_update_wps_config.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/3_version_update_wps_config.sql \
     vendor/realme/RMX2061/proprietary/vendor/radio/qcril_database/upgrade/4_version_update_ecc_table.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/4_version_update_ecc_table.sql \
-    vendor/realme/RMX2061/proprietary/vendor/radio/qcril_database/upgrade/5_version_update_ecc_table.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/5_version_update_ecc_table.sql \
-    vendor/realme/RMX2061/proprietary/vendor/recovery-from-boot.p:$(TARGET_COPY_OUT_VENDOR)/recovery-from-boot.p
+    vendor/realme/RMX2061/proprietary/vendor/radio/qcril_database/upgrade/5_version_update_ecc_table.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/5_version_update_ecc_table.sql
 
 PRODUCT_PACKAGES += \
     libantradio \
